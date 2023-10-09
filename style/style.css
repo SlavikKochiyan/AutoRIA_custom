@@ -1,0 +1,49 @@
+.menu{
+    list-style-type: none;
+    margin-left: 50%;
+}
+.menu a{
+    text-decoration: none
+}
+.menu li{
+   display: inline;
+}
+
+.registration_menu{
+    padding-top: 10%;
+    padding-left: 45%;
+}
+
+.login{
+    font-size: inherit;
+    border: 2px solid #272424;
+    margin-top: 10px;
+    border-radius: 0.50rem;
+}
+
+.password{
+    font-size: inherit;
+    border: 2px solid #272424;
+    margin-top: 5px;
+    border-radius: 0.50rem;
+}
+
+.submit_btn{
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+.search_car{
+    margin-top: 15px;
+}
+
+.input_price{
+    margin-left: 60px;
+}
+.issue{
+    margin-left: 5px;
+}
+.search_car{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}

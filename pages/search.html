@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <link href="/style/style.css"rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div>
+        <form action="https://fom.in.ua/echo" method="get">
+            <fieldset>
+                <legend>Choose body type for car</legend>
+                <input type="radio" id="Station_wagon" name="body_type"/>
+                <label for="Station_wagon">Station wagon</label> <br/>
+                <input type="radio" id="Sedan" name="body_type"/>
+                <label for="Sedan">Sedan</label> <br /> 
+                <input type="radio" id="Hatchback" name="body_type" />
+                <label for="Hatchback">Hatchback</label>
+            </fieldset>
+            <!--Select car model-->
+            <label for="cars" class="search_car"><strong>Select a car:</strong></label>
+                <select class="search_car" id="cars" name="cars">
+                  <option value="Skoda">Skoda</option>
+                  <option value="Audi">Audi</option>
+                  <option value="Volkswagen">Volkswagen</option>
+                  <option value="Porsche">Porsche</option>
+                  <option value="Mercedes">Mercedes</option>
+                  <option value="BMW">BMW</option>
+                  <option value="Volvo">Volvo</option>
+                </select>
+                <br>
+                <!--Select main country-->
+                <fieldset class="group">
+                    <legend> Choose countrie</legend>
+                    <input type="radio" id="test" name="country_name">
+                    <label for="test">Poland</label>
+                    <br>
+                    <input type="radio" id="test" name="country_name">
+                    <label for="test">Germany</label>
+                    <br>
+                    <input type="radio" id="test" name="country_name">
+                    <label for="test">USA</label>
+                    <br>
+                    <input type="radio" id="test" name="country_name">
+                    <label for="test">Korea</label>
+                </fieldset>
+                <br>
+                <!--Enter price-->
+                <strong>Price</strong> <input class="input_price" type="text" placeholder="From" name="price_frome"/>
+                <input type="text" placeholder="Before" name="price_before"/>
+                <br>
+                <br>
+                <!--Enter Year of issue-->
+                <strong>Year of issue:</strong> <input class="issue" type="text" placeholder="From" name="year_frome"/>
+                <input type="text" placeholder="Before" name="year_before"/>
+                <br>
+                <br>
+                <!--Select car condition-->
+                <fieldset>
+                    <legend>Select car condition</legend>
+                    <input type="checkbox" id="car1" name="car condition"/>
+                    <label for="car1">Broken</label> <br/>
+                    <input type="checkbox" id="car2" name="car condition" />
+                    <label for="car2">Not cleared by customs</label> <br /> 
+                    <input type="checkbox" id="car3" name="car condition" />
+                    <label for="car3">On credit</label>
+                    <input type="checkbox" id="car4" name="car condition" />
+                    <label for="car4">After the crash</label>
+                </fieldset>
+                <br>
+                <br>
+                <!--Select Fuel type-->
+                <label for="Fuel type"><strong>Fuel type:</strong></label>
+                <select id="Fuel type" name="Fuel type:">
+                  <option value="Gas">Gas</option>
+                  <option value="Diesel">Diesel</option>
+                </select>
+                <br>
+                <br>
+                <!--Select Gearbox type-->
+                <label for="Gearbox type"><strong>Gearbox type:</strong></label>
+                <select id="Gearbox type" name="Gearbox type">
+                  <option value="Mechanics">Mechanics</option>
+                  <option value="Machine">DMachine</option>
+                </select>
+                <br>
+                <br>
+                <!--Select color-->
+                <fieldset>
+                    <legend>Select color of car</legend>
+                    <input type="radio" id="Station_wagon" name="color"/>
+                    <label for="Station_wagon">Black</label> <br/>
+                    <input type="radio" id="Sedan" name="color"/>
+                    <label for="Sedan">White</label> <br /> 
+                    <input type="radio" id="Hatchback" name="color" />
+                    <label for="Hatchback">Green</label>
+                </fieldset>
+                <br>
+                <strong>Enter additional options</strong> <input type="text" placeholder="additional options" name="additional options">
+                <br>
+                <button class="search_car">Submit</buttonс>
+        </form>
+    </div>
+</body>
+</html>
